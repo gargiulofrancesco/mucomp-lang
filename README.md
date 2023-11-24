@@ -4,6 +4,8 @@ This repository contains a compiler for µcomp-lang, a toy component-based imper
 The `report.pdf` file contains the design choices made during development and their motivations.
 
 ## Syntax 
+An example of µcomp-lang program is the following:
+
 ```
 interface Adder {
   def add(a : int, b : int) : int;
